@@ -34,3 +34,6 @@ class UsermodMY9231 : public Usermod {
       _my92xx->update();
     }
 };
+
+// Автоматическая регистрация мода без редактирования других файлов
+REGISTER_USERMOD(UsermodMY9231)
